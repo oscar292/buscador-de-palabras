@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma;
+}
+
+html {
+    font-size: 10px;
+}
+.layout {
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout__main {
+    width: 50rem;
+}
+
+.main__input {
+    display: block;
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    outline: none;
+    margin-bottom: 3rem;
+}
+
+.main__text {
+    text-align: justify;
+    line-height: 1.8;
+}
+
+.text__search {
+    background-color: aqua;
+}
